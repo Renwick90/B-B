@@ -1,0 +1,22 @@
+<h1>Book a room</h1>
+
+<form action="/room" method="post">
+  <label for="first_name"> First Name:</label>
+  <input type="text" name="first_name">
+  <label for="last_name"> Last Name:</label>
+  <input type="text" name="last_name">
+  <label for="breakfast">Breakfast:</label>
+  <select name="breakfast">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+  <label for="type_of_room">Type of room:</label>
+  <select name="type_of_room">
+    <option value="single">Single</option>
+    <option value="double">Double</option>
+    <option value="twin">Twin</option>
+  </select>
+  <label for="nights">Nights</label>
+  <input name="nights" type="number" value="nights">
+  <input type="submit" value="Book a room">
+</form>
